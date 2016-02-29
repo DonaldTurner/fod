@@ -1,0 +1,14 @@
+{
+	"meta": {
+		"charset": "utf-8",
+		"project": "FunnyOrDie 1.0.0",
+		"language": "en",
+		"plural": "(n != 1)"
+	},
+	"data": {
+		"": {
+			"Funny or die": "Funny or die",
+			"FunnyOrDie": "FunnyOrDie"
+		}
+	}
+}
