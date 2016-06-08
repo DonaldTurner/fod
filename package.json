@@ -1,15 +1,14 @@
 {
-	"name": "FunnyOrDie",
-	"version": "1.0.2",
-	"description": "Funny or die",
-	"author": {
-		"name": "DonaldTurner"
-	},
+	"name": "Funny Or Die",
+	"version": "1.0.3",
+	"description": "Funny Or Die is an Emmy-winning comedy video hosting and film/TV production company.",
+	"author": "Boris Aleynikov",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/DonaldTurner/fod.git"
 	},
 	"dependencies": {
+		"stb-referrer": "https://github.com/stbsdk/referrer.git",
 		"code-proxy": "^1.2.21",
 		"del": "^1.2.0",
 		"gettext-parser": "^1.1.1",
@@ -37,8 +36,24 @@
 		"ws": "^0.7.2"
 	},
 	"license": "GPL-3.0",
-	"config":{
-		"backgroundColor": "#000",
-		"icons": "icons"
+	"config": {
+		"type": "app",
+		"category": "apps",
+		"backgroundColor": "#000000",
+		"name": "Funny Or Die",
+		"legacy": true,
+		"description": "Funny Or Die is an Emmy-winning comedy video hosting and film/TV production company.",
+		"icons": {
+			"paths": {
+				"480": "img/480/",
+				"576": "img/576/",
+				"720": "img/720/",
+				"1080": "img/1080/"
+			},
+			"states": {
+				"normal": "icons/2015.png",
+				"active": "icons/2015.focus.png"
+			}
+		}
 	}
 }
